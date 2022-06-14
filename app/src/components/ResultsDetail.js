@@ -3,6 +3,8 @@ import {View, Image, Text, StyleSheet} from 'react-native'
 
 const ResultsDetail = ({result}) => {
     //'result' is the object containing all the business data from yelp api, like name, image_url, price, etc...
+
+    //Show Elements
     return (
         <View style={styles.containerStyle}>
             <Image 
@@ -14,6 +16,9 @@ const ResultsDetail = ({result}) => {
         </View>
     )
 }
+
+//------------------------------------//
+//-------------Style-----------------//
 
 const styles = StyleSheet.create({
 

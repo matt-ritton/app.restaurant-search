@@ -8,14 +8,16 @@ const HomeScreen = () => {
     const [term, setTerm] = useState('');
     const [searchApi, results, errorMessage] = useResults();
 
+    //Function to filter prices
     const filterResultsByPrice = (price) => {
         //price === '$' || '$$' || '$$$'
 
-        return results.filter(result => {
+        return results.filter(result => { //filter the results based on a 'result' price
             return result.price === price;
         })
     }
 
+    //Show Elements
     return (
         <>
             <SearchBar 

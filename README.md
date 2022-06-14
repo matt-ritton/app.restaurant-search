@@ -4,7 +4,6 @@ Simple app project using React Native and Yelp API. This app shows some restaura
 
 ## TODO List
 - Update to React Navigation v6
-- Make the Image Show Screen
 - Add comments
 
 ## Installation Guide

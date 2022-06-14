@@ -3,6 +3,8 @@ import {View, Text, StyleSheet, TextInput} from 'react-native'
 import { FontAwesome } from '@expo/vector-icons';
 
 const SearchBar = ( {term, onTermChange, onTermSubmit} ) => {
+
+    //Show Elements
     return (
         <View style={styles.background}>
             <FontAwesome style={styles.iconStyle} name="search" color="#878686" />
@@ -23,7 +25,7 @@ const SearchBar = ( {term, onTermChange, onTermSubmit} ) => {
 
 const styles = StyleSheet.create({
     background: {
-        backgroundColor: '#F0EEEE',
+        backgroundColor: '#DEDCDC',
         height: 50,
         borderRadius: 5,
         marginHorizontal: 25,
